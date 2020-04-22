@@ -11,18 +11,18 @@ def createTree():
     ini_root_depth = 0.004
     ini_crown_depth = 0.004
     ini_stem_radius = 0.005  #0.005
-    ini_stem_height = 0.05
-    ini_root_radius = 0.2
+    ini_stem_height = 0.015
+    ini_root_radius = 0.26
     ini_crown_radius = 0.2
-    leaf_water_potential = -7860000
+    leaf_water_potential = -8150000
     kf_sap = 1.04e-10
     lp = 0.33e-14
     k_geom = 4000
     half_max_h_growth_weight = 0.12
-    maint_factor = 0.0000002
-    sun_c = 2.5e-8
-    growth_factor = 0.0047
-    h_sigmo_slope = 0.5
+    maint_factor = 0.0000014
+    sun_c = 5e-8
+    growth_factor = 0.0025
+    h_sigmo_slope = 0.05
     sigmo_slope = 0.015
     # Kiwi
     salt_effect_d = -0.18
